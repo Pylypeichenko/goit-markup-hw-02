@@ -91,12 +91,12 @@ header {
   background-color: #f5f4fa;
 }
 
-.team .title {
-  color: var(--primary-title-color);
-}
-
 .team .card {
   background-color: var(--team-cards-bg-color);
+}
+
+.card .title {
+  color: var(--primary-title-color);
 }
 
 /* Footer */
@@ -116,4 +116,38 @@ footer {
 .address .mail,
 .address .tel {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Портфолио */
+/* buttons */
+
+.projects {
+  background-color: #e5e5e5;
+}
+
+.button {
+  background-color: var(--portfolio-btn-color);
+  color: #212121;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--secondery-text-color);
+}
+
+/* projects */
+
+.projects .card {
+  background-color: var(--projects-cards-bg-color);
+}
+
+/* 
+.card .title {
+  color: var(--primary-title-color); 
+} 
+*/
+
+.projects .text {
+  color: var(--primary-text-color);
 }
