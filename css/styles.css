@@ -15,16 +15,39 @@
 
 body {
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  color: var(--primary-title-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* Header */
 
 header {
   background-color: var(--header-bg-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .logo {
   color: var(--accent-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo.studio-header {
@@ -37,6 +60,10 @@ header {
 
 .nav .link:hover,
 .nav .link:focus {
+  color: var(--accent-color);
+}
+
+.nav .link.current {
   color: var(--accent-color);
 }
 
@@ -58,21 +85,40 @@ header {
 
 .banner .title {
   color: var(--secondary-title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .btn {
   background-color: var(--accent-color);
   color: var(--secondery-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Секция Наши преимущества */
 
 .benefits {
   background-color: #e5e5e5;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .benefits .title {
-  color: var(--primary-title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Секция Чем мы занимаемся */
@@ -82,7 +128,10 @@ header {
 }
 
 .what-we-doing .title {
-  color: var(--primary-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* Наша команда */
@@ -91,18 +140,30 @@ header {
   background-color: #f5f4fa;
 }
 
-.team .card {
-  background-color: var(--team-cards-bg-color);
+.team > .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
-.card .title {
-  color: var(--primary-title-color);
+.team .card {
+  background-color: var(--team-cards-bg-color);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team .title {
+  font-weight: 500;
 }
 
 /* Footer */
 
 footer {
   background-color: var(--footer-bg-color);
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .logo.studio-footer {
@@ -111,11 +172,13 @@ footer {
 
 .address .link {
   color: var(--secondery-text-color);
+  font-style: normal;
 }
 
 .address .mail,
 .address .tel {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 /* Портфолио */
@@ -128,6 +191,10 @@ footer {
 .button {
   background-color: var(--portfolio-btn-color);
   color: #212121;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .button:hover,
@@ -140,13 +207,16 @@ footer {
 
 .projects .card {
   background-color: var(--projects-cards-bg-color);
+  font-size: 16px;
+  line-height: 1.88;
 }
 
-/* 
 .card .title {
-  color: var(--primary-title-color); 
-} 
-*/
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 
 .projects .text {
   color: var(--primary-text-color);
